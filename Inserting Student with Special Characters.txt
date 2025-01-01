@@ -1,0 +1,3 @@
+insert into student
+values (7,"O'Connor Ryan",22,'Mechanical Engineering','2024-11-20');
+select * from student where student_id = 7;
