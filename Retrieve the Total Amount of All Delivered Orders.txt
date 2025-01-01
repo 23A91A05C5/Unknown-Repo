@@ -1,0 +1,2 @@
+select sum(totalamount) from orders
+where deliverystatus = 'Delivered';
