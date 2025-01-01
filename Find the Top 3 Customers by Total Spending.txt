@@ -1,0 +1,2 @@
+select customername,totalamount from orders
+order by totalamount desc limit 3;
