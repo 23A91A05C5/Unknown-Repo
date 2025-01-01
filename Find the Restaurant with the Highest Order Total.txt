@@ -1,0 +1,2 @@
+select restaurantname from orders
+where totalamount = (select max(totalamount) from orders);
